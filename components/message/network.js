@@ -43,3 +43,5 @@ router.delete('/:id', function(req, res) {
       response.error(req, res, 'Internal Error', 500, e);
     });
 });
+
+module.exports = router;
